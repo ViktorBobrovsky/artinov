@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+.wrapper {
+	margin: 0 10px;
+}
+.header {
+	display:block;
+	margin: 0;
+	padding: 0;
+}
+.project_name {
+	font-size: 18pt;
+	color: rgb(119,119,119);
+	text-align: left;
+	padding-top: 36px;
+	padding-bottom: 10px;
+}
+.menu{
+	display: block;
+	height: 52px;
+}
+.btn_menu_start, 
+.btn_menu, .btn_menu_end{
+	text-decoration: none;
+	box-sizing: border-box;
+	-moz- box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: inline-block;
+	font-weight: bold;
+	width:16.66666%;
+	font-size: 11pt;
+	color: rgb(119,119,119);
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background-color: #222222;
+	text-align: center;
+	float: left;
+	background-image: linear-gradient(rgb(244,244,244), rgb(219,219,219));
+	border: 1px rgb(213,213,213) solid;
+}
+.btn_menu_start:hover, 
+.btn_menu:hover,.btn_menu_end:hover {
+	background-image: linear-gradient(rgb(219,219,219), rgb(244,244,244));
+}
+.btn_menu_start{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.btn_menu_end{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left-color: white;
+}
+.btn_menu {
+	border-left-color: white;
+}
+.marketing {
+	display: block;
+	text-align: center;
+	padding: 70px 40px 0px 40px; 
+
+}
+.marketing h1 {
+	color: rgb(51,51,51);
+	font-size: 44pt;
+	margin:0;
+	font-weight:normal;
+} 
+.marketing p {
+	color: rgb(51,51,51);
+	font-size: 14pt;
+} 
+.get_start {
+	display: inline-block;	
+	background-color: rgb(92,184,92);
+	color: white;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 16pt;
+	margin-top: 6px;
+	text-decoration: none;
+}
+.content {
+	display: block;
+	margin-top: 80px;
+	background-color: red;
+}
+.column {
+	display: inline-block;
+	float: left;
+	width: 33.333%;
+}
+.column h2 {
+	font-weight: normal;
+}
+.view_details{
+	background-color: rgb(51,122,183);
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius:5px;
+}	
+.footer {
+	display:block;
+}
